@@ -1,0 +1,23 @@
+{
+    "name": "leoralph/core",
+    "description": "Core for my own php mvc framework",
+    "type": "library",
+    "require": {
+        "illuminate/database": "^9.5",
+        "twig/twig": "^3.3",
+        "guzzlehttp/guzzle": "^7.4",
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/mailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeoRalph\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Ralph",
+            "email": "theleoralph@gmail.com"
+        }
+    ]
+}
